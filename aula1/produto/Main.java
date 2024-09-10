@@ -27,7 +27,7 @@ class Produto {
     // Método para obter uma representação do produto como string
     public String toString() {
         // Retorna uma string com o nome e a marca do produto
-        return "Nome: "+nome+"\n Marca: " + marca;
+        return "Nome: "+nome+"\nMarca: " + marca;
     }
 }
 
@@ -38,22 +38,22 @@ public class Main {
         Scanner scan = new Scanner(System.in);
 
         // Solicita ao usuário para digitar o nome do produto
-        System.out.println("Digite o nome do produto:");
+        System.out.print("Digite o nome do produto:");
         // Lê a entrada do usuário para o nome do produto
         String nome = scan.nextLine();
 
         // Solicita ao usuário para digitar a marca do produto
-        System.out.println("Digite a marca do produto:");
+        System.out.print("Digite a marca do produto:");
         // Lê a entrada do usuário para a marca do produto
         String marca = scan.nextLine();
 
         // Solicita ao usuário para digitar o preço de custo do produto
-        System.out.println("Digite o preço de custo do produto:");
+        System.out.print("Digite o preço de custo do produto:");
         // Lê a entrada do usuário para o preço de custo do produto e armazena como um double
         double precoCusto = scan.nextDouble();
 
         // Solicita ao usuário para digitar o preço de venda do produto
-        System.out.println("Digite o preço de venda do produto:");
+        System.out.print("Digite o preço de venda do produto:");
         // Lê a entrada do usuário para o preço de venda do produto e armazena como um double
         double precoVenda = scan.nextDouble();
 
@@ -64,7 +64,7 @@ public class Main {
         double lucro = produto.calcularLucro();
 
         // Exibe o nome, a marca e o lucro do produto
-        System.out.println("Produto: "+produto+"\n- Lucro: R$ "+lucro);
+        System.out.println("\n\nProduto: "+produto+"\nLucro: R$ "+lucro);
 
         // Fecha o objeto Scanner para liberar recursos
         scan.close();
