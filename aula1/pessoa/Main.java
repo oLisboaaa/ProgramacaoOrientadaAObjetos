@@ -24,6 +24,6 @@ class Pessoa {
     private String gerarEmail(String userEmail){
         String dominio = "facens.br";
 
-        return userEmail+ "@" +dominio;
+        return userEmail+"@"+dominio;
     }
 }
