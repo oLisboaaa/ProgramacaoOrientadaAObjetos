@@ -1,4 +1,4 @@
-package aula1.pessoa;
+package aula1.pessoa; // Define o pacote onde as classes estão localizadas
 
 import java.text.ParseException; // Importa a classe para lidar com erros de análise de data
 import java.text.SimpleDateFormat; // Importa a classe para formatação e análise de datas
