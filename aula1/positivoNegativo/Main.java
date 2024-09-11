@@ -1,4 +1,4 @@
-package aula1.positivoNegativo;
+package aula1.positivoNegativo; // Define o pacote onde as classes estão localizadas
 
 import java.util.Scanner; // Importa a classe Scanner para entrada de dados pelo teclado
 
