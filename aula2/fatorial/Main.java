@@ -2,30 +2,29 @@ package aula2.fatorial;
 
 import java.util.Scanner;
 
-
-class Fatorial{
+class Fatorial {
     private double n1;
 
-    public void setFatorial(double n1){
+    public void setFatorial(double n1) {
         this.n1 = n1;
     }
 
-    private double fazFator(){
+    private double fazFator() {
 
         double numero = n1;
 
         double multiplicação = n1;
 
         while (numero > 1) {
-            multiplicação = multiplicação * (numero-1);
+            multiplicação = multiplicação * (numero - 1);
             numero--;
         }
-        
+
         return multiplicação;
 
     }
 
-    public double getFazFator(){
+    public double getFazFator() {
         return fazFator();
     }
 }
@@ -43,9 +42,7 @@ public class Main {
 
         Double resultado = fatorial.getFazFator();
 
-
-        System.out.print("o valor fatorial de "+n1+" é igual a:\n"+resultado);
-
+        System.out.print("o valor fatorial de " + n1 + " é igual a:\n" + resultado);
 
         scan.close();
     }
