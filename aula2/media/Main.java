@@ -43,5 +43,7 @@ public class Main {
 
         System.out.println("\n\nA média aritimetica dos numeros " + n1 + ", " + n2 + "e " + n3 + " é de:" + resultado);
 
+        scan.close();
+
     }
 }
