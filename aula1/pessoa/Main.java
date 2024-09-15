@@ -26,7 +26,7 @@ class Pessoa {
 
     // Gera o e-mail completo usando o e-mail base
     private String gerarEmail(String userEmail) {
-        String dominio = "facens.br"; // Domínio fixo para o e-mail
+        String dominio = "facens.br";
         return userEmail.toLowerCase() + "@" + dominio; // Retorna o e-mail completo em minúsculas
     }
 

@@ -5,7 +5,7 @@ import java.util.Scanner;
 class Minutos {
     private int minutos;
 
-    public void setMinutos(int minutos) {
+    public Minutos(int minutos) {
         this.minutos = minutos;
     }
 
@@ -30,9 +30,7 @@ public class Main {
         System.out.print("Digite os minutos que deseja converter para horas: ");
         int minutos = scan.nextInt();
 
-        Minutos horasMinutos = new Minutos();
-
-        horasMinutos.setMinutos(minutos);
+        Minutos horasMinutos = new Minutos(minutos);
 
         String hrFormat = horasMinutos.getHrToMin();
 

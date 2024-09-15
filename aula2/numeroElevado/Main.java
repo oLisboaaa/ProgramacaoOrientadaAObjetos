@@ -7,7 +7,7 @@ class numElevado {
     private double n1;
     private double n2;
 
-    public void setNumElevado(double n1, double n2) {
+    public numElevado(double n1, double n2) {
         this.n1 = n1;
         this.n2 = n2;
 
@@ -34,9 +34,7 @@ public class Main {
         System.out.print("Escreva o expoente: ");
         double n2 = scan.nextDouble();
 
-        numElevado expoente = new numElevado();
-
-        expoente.setNumElevado(n1, n2);
+        numElevado expoente = new numElevado(n2, n2);
 
         double result = expoente.getEleva();
 

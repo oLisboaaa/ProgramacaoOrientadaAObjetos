@@ -5,7 +5,7 @@ import java.util.Scanner;
 class Fatorial {
     private double n1;
 
-    public void setFatorial(double n1) {
+    public Fatorial(double n1) {
         this.n1 = n1;
     }
 
@@ -36,9 +36,7 @@ public class Main {
         System.out.print("Digite um numero: ");
         double n1 = scan.nextDouble();
 
-        Fatorial fatorial = new Fatorial();
-
-        fatorial.setFatorial(n1);
+        Fatorial fatorial = new Fatorial(n1);
 
         Double resultado = fatorial.getFazFator();
 

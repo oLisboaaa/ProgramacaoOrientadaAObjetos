@@ -8,7 +8,7 @@ class numeroMaior {
     private double n2;
     private double n3;
 
-    public void setNumeroMaior(double n1, double n2, double n3) {
+    public numeroMaior(double n1, double n2, double n3) {
 
         this.n1 = n1;
         this.n2 = n2;
@@ -48,9 +48,8 @@ public class Main {
         System.out.print("escreva um terceiro número: ");
         double n3 = scan.nextDouble();
 
-        numeroMaior numero = new numeroMaior();
+        numeroMaior numero = new numeroMaior(n3, n3, n3);
 
-        numero.setNumeroMaior(n1, n2, n3);
 
         double resultado = numero.getCheckNum();
 
