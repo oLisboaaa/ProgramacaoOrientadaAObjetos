@@ -24,7 +24,7 @@ class Media {
     }
 }
 
-public class Main {
+public class CalculoMedia {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 

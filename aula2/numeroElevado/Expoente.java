@@ -24,7 +24,7 @@ class numElevado {
     }
 }
 
-public class Main {
+public class Expoente {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 

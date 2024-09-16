@@ -8,7 +8,6 @@ class PosNeg {
     String resultado;
 
     // Construtor da classe PosNeg que aceita um parâmetro n1 (numero 1) e
-    // inicializa o atributo n1
     public PosNeg(int n1) {
         this.n1 = n1;
     }
@@ -17,9 +16,9 @@ class PosNeg {
     public String verificaPosNeg() {
         // Verifica se o número é maior ou igual a zero
         if (n1 >= 0) {
-            resultado = "positivo"; // Define resultado como "positivo" se a condição for verdadeira
+            resultado = "positivo";
         } else {
-            resultado = "negativo"; // Define resultado como "negativo" se a condição for falsa
+            resultado = "negativo";
         }
         // Retorna o resultado da verificação
         return resultado;
@@ -27,7 +26,7 @@ class PosNeg {
 }
 
 // Define a classe principal Main
-public class Main {
+public class VerificarNumero {
     // Método principal que é o ponto de entrada do programa
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in); // Cria um objeto Scanner para ler entrada do teclado
@@ -40,8 +39,8 @@ public class Main {
         PosNeg posNeg = new PosNeg(n1);
 
         /*
-        Chama o método verificaPosNeg para determinar se o número é positivo ou
-        negativo
+         * Chama o método verificaPosNeg para determinar se o número é positivo ou
+         * negativo
          */
         String resultado = posNeg.verificaPosNeg();
 

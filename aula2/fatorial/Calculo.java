@@ -29,7 +29,7 @@ class Fatorial {
     }
 }
 
-public class Main {
+public class Calculo {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 

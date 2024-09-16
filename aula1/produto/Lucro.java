@@ -32,7 +32,7 @@ class Produto {
 }
 
 // Classe principal que contém o método main
-public class Main {
+public class Lucro {
     public static void main(String[] args) {
         // Cria um objeto Scanner para ler dados do usuário
         Scanner scan = new Scanner(System.in);

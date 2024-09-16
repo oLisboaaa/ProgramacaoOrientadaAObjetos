@@ -35,7 +35,7 @@ class numeroMaior {
     }
 }
 
-public class Main {
+public class MaiorNum {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 

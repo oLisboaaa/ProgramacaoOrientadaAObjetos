@@ -62,7 +62,7 @@ class Pessoa {
 }
 
 // Classe principal que contém o método main
-public class Main {
+public class Email {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in); // Cria um objeto Scanner para o input do usuário
 

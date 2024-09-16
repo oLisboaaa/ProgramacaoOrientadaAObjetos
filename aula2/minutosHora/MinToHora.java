@@ -23,7 +23,7 @@ class Minutos {
     }
 }
 
-public class Main {
+public class MinToHora {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
