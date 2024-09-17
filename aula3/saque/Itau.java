@@ -16,7 +16,7 @@ class Banco{
     public double getSaque() {
         return saque;
     }
-    public void setSaque(double saque) {
+    public void setSaque() {
         Scanner scan = new Scanner(System.in);
         this.saque = saque;
         double taxa = 0.005;
@@ -37,7 +37,7 @@ class Banco{
     public double getDeposito() {
         return deposito;
     }
-    public void setDeposito(double deposito) {
+    public void setDeposito() {
         Scanner scan = new Scanner(System.in);
         this.deposito = deposito;
         double taxa = 0.01;
@@ -53,20 +53,20 @@ class Banco{
         System.out.print("O valor total é de "+deposito);
         return deposito;
         }
-    }
-
-
     public double getConsulta() {
         return consulta;
     }
-    public void setConsulta(double consulta) {
+    public void setConsulta() {
         this.consulta = consulta;
         double taxa = 0.1;
     }
-
-
-
 }
+
+
+
+
+
+
 
 public class Itau {
     public static void main(String[] args) {
