@@ -1,6 +1,6 @@
-package aula1.produto;  // Define o pacote onde as classes estão localizadas
+package aula1.produto;
 
-import java.util.Scanner;  // Importa a classe Scanner para entrada de dados do usuário
+import java.util.Scanner;
 
 // Classe que representa um produto
 class Produto {

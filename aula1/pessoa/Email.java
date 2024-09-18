@@ -1,9 +1,9 @@
 package aula1.pessoa;
 
-import java.text.ParseException; // Importa a classe para lidar com erros de análise de data
-import java.text.SimpleDateFormat; // Importa a classe para formatação e análise de datas
-import java.util.Date; // Importa a classe para representar a data e hora
-import java.util.Scanner; // Importa a classe para input do usuário
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Scanner;
 
 // Define a classe Pessoa
 class Pessoa {
