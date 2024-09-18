@@ -1,13 +1,13 @@
-package aula2.positivoNegativo; // Define o pacote onde as classes estão localizadas
+package aula2.positivoNegativo;
 
-import java.util.Scanner; // Importa a classe Scanner para entrada de dados pelo teclado
+import java.util.Scanner;
 
 // Define a classe PosNeg
 class PosNeg {
     int n1;
     String resultado;
 
-    // Construtor da classe PosNeg que aceita um parâmetro n1 (numero 1) e
+    // Construtor da classe
     public PosNeg(int n1) {
         this.n1 = n1;
     }
@@ -20,33 +20,29 @@ class PosNeg {
         } else {
             resultado = "negativo";
         }
-        // Retorna o resultado da verificação
         return resultado;
     }
 }
 
-// Define a classe principal Main
-public class VerificarNumero {
-    // Método principal que é o ponto de entrada do programa
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in); // Cria um objeto Scanner para ler entrada do teclado
 
-        // Solicita ao usuário para digitar um número
+public class VerificarNumero {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
         System.out.print("Digite um numero: ");
         int n1 = scan.nextInt();
 
-        // Cria um objeto da classe PosNeg passando o número digitado para o construtor
+        // Cria um objeto da classe
         PosNeg posNeg = new PosNeg(n1);
 
         /*
-         * Chama o método verificaPosNeg para determinar se o número é positivo ou
-         * negativo
-         */
+        Chama o método verificaPosNeg para determinar se o número é positivo ou
+        negativo
+        */
         String resultado = posNeg.verificaPosNeg();
 
-        // Exibe o resultado para o usuário
         System.out.println("O numero " + n1 + " é " + resultado);
 
-        scan.close(); // Fecha o objeto Scanner para liberar os recursos
+        scan.close(); 
     }
 }
