@@ -19,6 +19,8 @@ class Filme {
             System.out.print("Qual o nome do filme?: ");
             this.nome = scan.nextLine();
         }
+
+        scan.close();
     }
 
     public void setGenero() {
@@ -34,6 +36,8 @@ class Filme {
                 System.out.println("Gênero inválido. Tente novamente.");
             }
         }
+
+        scan.close();
     }
 
     public void setDuracao() {
@@ -42,6 +46,8 @@ class Filme {
             System.out.print("Qual a duração do filme em minutos?: ");
             this.duracao = scan.nextInt();
         }
+
+        scan.close();
     }
 
     public String getNome() {
