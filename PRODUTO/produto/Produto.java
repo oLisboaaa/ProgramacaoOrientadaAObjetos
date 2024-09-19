@@ -1,4 +1,4 @@
-package aula1.produto;
+package PRODUTO.produto;
 
 import java.util.Scanner;
 

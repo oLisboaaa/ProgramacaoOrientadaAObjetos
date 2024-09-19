@@ -1,4 +1,4 @@
-package aula1.pessoa;
+package PRODUTO.pessoa;
 
 import java.util.Scanner;
 import java.text.SimpleDateFormat;

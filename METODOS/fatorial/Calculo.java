@@ -1,4 +1,4 @@
-package aula2.fatorial;
+package METODOS.fatorial;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package aula2.minutosHora;
+package METODOS.minutosHora;
 
 import java.util.Scanner;
 

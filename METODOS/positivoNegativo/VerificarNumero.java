@@ -1,4 +1,4 @@
-package aula2.positivoNegativo;
+package METODOS.positivoNegativo;
 
 import java.util.Scanner;
 

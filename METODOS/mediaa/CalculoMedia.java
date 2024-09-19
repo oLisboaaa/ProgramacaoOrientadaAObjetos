@@ -1,4 +1,4 @@
-package aula2.mediaa;
+package METODOS.mediaa;
 
 import java.util.Scanner;
 

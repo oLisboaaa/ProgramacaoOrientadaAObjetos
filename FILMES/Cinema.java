@@ -1,4 +1,4 @@
-package aula3.filme;
+package FILMES;
 
 import java.util.Scanner;
 

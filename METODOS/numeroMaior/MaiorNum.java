@@ -1,4 +1,4 @@
-package aula2.numeroMaior;
+package METODOS.numeroMaior;
 
 import java.util.Scanner;
 
