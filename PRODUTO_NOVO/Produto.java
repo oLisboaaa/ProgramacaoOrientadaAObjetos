@@ -4,10 +4,10 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 class CadastroProduto {
-    String nome;
-    Date dataFab;
-    Date dataVal;
-    double precoVenda;
+    private String nome;
+    private Date dataFab;
+    private Date dataVal;
+    private double precoVenda;
 
     public CadastroProduto(String nome, Date dataFab, Date dataVal, double precoVenda) {
         this.nome = nome;

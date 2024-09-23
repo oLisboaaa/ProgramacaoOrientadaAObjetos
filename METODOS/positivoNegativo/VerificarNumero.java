@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 // Define a classe PosNeg
 class PosNeg {
-    int n1;
-    String resultado;
+    private int n1;
+    private String resultado;
 
     // Construtor da classe
     public PosNeg(int n1) {

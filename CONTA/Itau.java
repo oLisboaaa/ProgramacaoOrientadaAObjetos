@@ -3,11 +3,11 @@ package CONTA;
 import java.util.Scanner;
 
 class Banco {
-    double saque;
-    double deposito;
-    double consulta;
-    double saldoAtual;
-    int numConsulta;
+    private double saque;
+    private double deposito;
+    private double consulta;
+    private double saldoAtual;
+    private int numConsulta;
 
     public Banco(double saque, double deposito, double consulta, double saldoAtual) {
         this.saque = saque;

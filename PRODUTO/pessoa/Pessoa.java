@@ -5,11 +5,11 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 class gPessoa {
-   String nome;
-   String sobrenome;
-   Date dataNasc;
-   double altura;
-   String email;
+   private String nome;
+   private String sobrenome;
+   private Date dataNasc;
+   private double altura;
+   private String email;
 
    public gPessoa(String nome, String sobrenome, Date dataNasc, double altura, String email) {
       this.nome = nome;

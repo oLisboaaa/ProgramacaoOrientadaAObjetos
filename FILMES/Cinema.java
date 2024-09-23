@@ -15,9 +15,9 @@ class Filme {
 
     public void setNome() {
         Scanner scan = new Scanner(System.in);
-        if (this.nome.isEmpty()) {
+        if (nome.isEmpty()) {
             System.out.print("Qual o nome do filme?: ");
-            this.nome = scan.nextLine();
+            nome = scan.nextLine();
         }
 
         scan.close();
