@@ -5,11 +5,11 @@ import java.util.Scanner;
 // Classe que representa um produto
 class Lucro {
     // Atributos da classe Produto
-    String nome;          
-    String marca;         
-    double precoCusto;    
-    double precoVenda;   
-    double lucro; 
+   private String nome;          
+   private String marca;         
+   private double precoCusto;    
+   private double precoVenda;   
+   private double lucro; 
 
     public Lucro (String nome, String marca, double precoCusto, double precoVenda, double lucro)  {
         this.nome = nome;
